@@ -48,7 +48,7 @@ box-shadow: 1px 1px 8px 8px;
 }
 
 .btn__container {
-  margin-top: 45px;
+  margin-top: 25px;
   z-index: 2;
   display: flex;
   justify-content: center;
