@@ -20,7 +20,7 @@ span{
 .counter {
   margin-left: 15px;
 box-shadow: 1px 1px 8px 8px;
-  height: 80vh;
+  height: fit-content;
   width: 90%;
   border: 2px solid;
   border-radius: 15%;
