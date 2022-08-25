@@ -4,8 +4,8 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .container{
-  height: 100px;
-  width: 100px;
+  height: 50vh;
+  width: 90%;
   border: 2px solid;
   border-radius: 15%;
   background-color:blue;
