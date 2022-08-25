@@ -9,17 +9,24 @@ p {
   display: flex;
   height: 80vh;
   width: 90%;
-  border: 2px solid;
+  
   border-radius: 15%;
   background-color:blue;
   overflow: hidden;
 }
+#root{
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: -1.7%;
+  background-color: blue;
+}
 .counter {
-  margin-left: 15px;
 box-shadow: 1px 1px 8px 8px;
-  height: 80vh;
+  height: 90vh;
   width: 90%;
-  border: 2px solid;
   border-radius: 15%;
   background-image: linear-gradient(black, blue);
   overflow: hidden;
@@ -65,21 +72,22 @@ box-shadow: 1px 1px 8px 8px;
   padding: 14px 24px;
   background-color: gray;
   box-shadow: 1px 1px 9px 4px black;
-  color: ;
   border: 3px solid ridge;
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
 
 .control__btn:hover {
+  box-shadow: 0px 0px 15px 2px;
   background-color: rgb(16, 0, 54);
   color: rgb(255, 255, 255);
-  border: 1px solid rgb(16, 0, 54);
+  border: 1px solid rgb(255, 255, 255);
 }
 .reset:hover {
+  box-shadow: 0px 0px 15px 2px;
   background-color: rgb(16, 0, 54);
   color: rgb(255, 255, 255);
-  border: 1px solid rgb(16, 0, 54);
+  border: 1px solid rgb(255, 255, 255);
 }
 .reset {
   font-weight: bold;
