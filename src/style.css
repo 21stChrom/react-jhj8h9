@@ -15,7 +15,7 @@ p {
 }
 #root{
   overflow: hidden;
-  width: 90vw;
+  width: 100vw;
   height: 70vh;
   justify-content: center;
   display: flex;
