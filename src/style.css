@@ -30,6 +30,7 @@ box-shadow: 1px 1px 8px 8px;
   row-gap: 20px;
 }
 .fs{
+  max-width: fit-content;
   margin-top: 45px;
 }
 .counter h1 {
@@ -40,7 +41,7 @@ box-shadow: 1px 1px 8px 8px;
 
 .counter__output {
   margin: auto;
-max-width: 100px;
+max-width: auto;
   width: 70px;
   box-shadow: 0px 0px 20px 6px;
   background-color: black;
