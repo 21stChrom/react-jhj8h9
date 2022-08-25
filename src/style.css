@@ -38,6 +38,7 @@ box-shadow: 1px 1px 8px 8px;
   row-gap: 20px;
 }
 .fs{
+  overflow: hidden;
   margin-top: 45px;
 }
 .counter h1 {
@@ -57,6 +58,7 @@ box-shadow: 1px 1px 8px 8px;
 }
 
 .btn__container {
+  overflow: hidden;
   margin-bottom: 20px;
   margin-top: 25px;
   z-index: 2;
