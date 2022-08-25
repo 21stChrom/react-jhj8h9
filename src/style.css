@@ -15,6 +15,7 @@ p {
   overflow: hidden;
 }
 .counter {
+  padding: 20px 20px 20px 20px;
 box-shadow: 1px 1px 8px 8px;
   height: 80vh;
   width: 90%;
@@ -29,7 +30,7 @@ box-shadow: 1px 1px 8px 8px;
   row-gap: 20px;
 }
 .fs{
-  margin-top: 50px;
+  margin-top: 45px;
 }
 .counter h1 {
   color: rgb(16, 0, 54);
