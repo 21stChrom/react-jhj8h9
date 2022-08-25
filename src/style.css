@@ -4,7 +4,7 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .container{
-  height: 50vh;
+  height: 80vh;
   width: 90%;
   border: 2px solid;
   border-radius: 15%;
@@ -13,7 +13,7 @@ p {
 }
 .counter {
 box-shadow: 1px 1px 8px 8px;
-  height: 50vh;
+  height: 80vh;
   width: 90%;
   border: 2px solid;
   border-radius: 15%;
