@@ -7,7 +7,7 @@ p {
   text-align: center;
   align-items: center;
   display: flex;
-  height: 70vh;
+  height: 60vh;
   width: 100vw;
   border-radius: 15%;
   background-color: transparent;
@@ -16,7 +16,7 @@ p {
 #root{
   overflow: hidden;
   width: 99vw;
-  height: 80vh;
+  height: fit-content;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -33,11 +33,11 @@ box-shadow: 1px 1px 8px 8px;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  row-gap: 35px;
+  row-gap: 45px;
 }
 .fs{
   overflow: hidden;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 .counter h1 {
   color: rgb(16, 0, 54);
