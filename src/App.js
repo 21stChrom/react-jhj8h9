@@ -1,5 +1,5 @@
 import  React, {useState}  from 'react'
- import "./style.css"
+ import "./App.css"
 export default function App() {
   const [counter, setCounter] = useState(0);
  
@@ -22,9 +22,10 @@ const decrease = () => {
       <div class="fs" />
       <span class="counter__output">{counter}</span>
       <div class="btn__container">
-        <button class="control__btn" onClick={increase}>+</button>
+  
         <button class="control__btn" onClick={decrease}>-</button>
         <button class="reset" onClick={reset}>Reset</button>
+        <button class="control__btn" onClick={increase}>+</button>
       </div>
     </div>
   );
